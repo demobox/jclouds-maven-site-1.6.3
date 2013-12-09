@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-12-09T11:00:45.403">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/apis/rackspace-clouddns/src/main/java/org/jclouds/rackspace/clouddns/v1/features/DomainApi.java">
+<violation beginline="41" endline="41" begincolumn="1" endcolumn="53" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.rackspace.clouddns.v1.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.rackspace.clouddns.v1.CloudDNSApi'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/apis/rackspace-clouddns/src/main/java/org/jclouds/rackspace/clouddns/v1/features/RecordApi.java">
+<violation beginline="39" endline="39" begincolumn="1" endcolumn="53" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.rackspace.clouddns.v1.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.rackspace.clouddns.v1.CloudDNSApi'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/apis/rackspace-clouddns/src/main/java/org/jclouds/rackspace/clouddns/v1/features/ReverseDNSApi.java">
+<violation beginline="40" endline="40" begincolumn="1" endcolumn="53" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.rackspace.clouddns.v1.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.rackspace.clouddns.v1.CloudDNSApi'
+</violation>
+</file>
+</pmd>
