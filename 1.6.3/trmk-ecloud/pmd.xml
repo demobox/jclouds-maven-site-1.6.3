@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-12-09T13:07:47.531">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/providers/trmk-ecloud/src/main/java/org/jclouds/trmk/ecloud/TerremarkECloudAsyncClient.java">
+<violation beginline="17" endline="290" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.ecloud" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/providers/trmk-ecloud/src/main/java/org/jclouds/trmk/ecloud/functions/OrgURIToDataCentersListEndpoint.java">
+<violation beginline="30" endline="30" begincolumn="1" endcolumn="39" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.ecloud.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.base.Function'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/providers/trmk-ecloud/src/main/java/org/jclouds/trmk/ecloud/functions/OrgURIToTagsListEndpoint.java">
+<violation beginline="30" endline="30" begincolumn="1" endcolumn="39" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.ecloud.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.base.Function'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/providers/trmk-ecloud/src/main/java/org/jclouds/trmk/ecloud/xml/ECloudOrgHandler.java">
+<violation beginline="50" endline="59" begincolumn="10" endcolumn="10" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.trmk.ecloud.xml" class="ECloudOrgHandler" method="startElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+</pmd>
