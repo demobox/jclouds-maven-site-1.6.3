@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.3" timestamp="2013-12-09T11:15:13.301">
+<pmd version="4.3" timestamp="2013-12-09T15:36:05.510">
 <file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/providers/gogrid/src/main/java/org/jclouds/gogrid/compute/strategy/GoGridComputeServiceAdapter.java">
 <violation beginline="51" endline="51" begincolumn="1" endcolumn="46" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.gogrid.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
 Avoid unused imports such as 'com.google.common.collect.ImmutableSet'
