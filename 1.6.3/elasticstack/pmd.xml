@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-12-09T00:08:23.019">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/apis/elasticstack/src/main/java/org/jclouds/elasticstack/compute/ElasticStackComputeServiceAdapter.java">
+<violation beginline="17" endline="249" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.elasticstack.compute" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="67" endline="67" begincolumn="1" endcolumn="43" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.elasticstack.compute" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.collect.Iterables'
+</violation>
+</file>
+</pmd>
