@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.3" timestamp="2013-12-09T11:38:30.477">
+<pmd version="4.3" timestamp="2013-12-09T16:10:37.530">
 <file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/drivers/apachehc/src/main/java/org/jclouds/http/apachehc/ApacheHCUtils.java">
 <violation beginline="201" endline="202" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.http.apachehc" class="ApacheHCUtils$HttpEntityPayload" method="release" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
 Avoid empty catch blocks
