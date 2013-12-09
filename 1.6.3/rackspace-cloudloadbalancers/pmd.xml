@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-12-09T01:17:28.885">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/apis/rackspace-cloudloadbalancers/src/main/java/org/jclouds/rackspace/cloudloadbalancers/v1/domain/UpdateLoadBalancer.java">
+<violation beginline="20" endline="20" begincolumn="1" endcolumn="84" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.rackspace.cloudloadbalancers.v1.domain" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.rackspace.cloudloadbalancers.v1.domain.internal.BaseLoadBalancer'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/apis/rackspace-cloudloadbalancers/src/main/java/org/jclouds/rackspace/cloudloadbalancers/v1/domain/UpdateNode.java">
+<violation beginline="20" endline="20" begincolumn="1" endcolumn="76" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.rackspace.cloudloadbalancers.v1.domain" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.rackspace.cloudloadbalancers.v1.domain.internal.BaseNode'
+</violation>
+</file>
+</pmd>
