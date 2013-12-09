@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="20" tokens="105">
+<file line="108" path="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/domain/internal/CatalogImpl.java"/>
+<file line="79" path="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/domain/internal/ReferenceTypeImpl.java"/>
+<codefragment>
+<![CDATA[
+      if (href == null) {
+         if (other.href != null)
+            return false;
+      } else if (!href.equals(other.href))
+         return false;
+      if (name == null) {
+         if (other.name != null)
+            return false;
+      } else if (!name.equals(other.name))
+         return false;
+      if (type == null) {
+         if (other.type != null)
+            return false;
+      } else if (!type.equals(other.type))
+         return false;
+      return true;
+   }
+
+   @Override
+   public int compareTo(ReferenceType o) {
+]]>
+</codefragment>
+</duplication>
+<duplication lines="14" tokens="100">
+<file line="50" path="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/binders/OrgNameCatalogNameItemNameToEndpoint.java"/>
+<file line="52" path="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/binders/OrgNameCatalogNameVAppTemplateNameToEndpoint.java"/>
+<codefragment>
+<![CDATA[
+      this.defaultOrg = defaultOrg;
+      this.defaultCatalog = defaultCatalog;
+   }
+
+   @SuppressWarnings("unchecked")
+   @Override
+   public <R extends HttpRequest> R bindToRequest(R request, Map<String, Object> postParams) {
+      Object org = postParams.get("orgName");
+      Object catalog = postParams.get("catalogName");
+      Object catalogItem = postParams.get("itemName");
+      if (org == null)
+         org = defaultOrg.get().getName();
+      if (catalog == null)
+         catalog = defaultCatalog.get().getName();
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>

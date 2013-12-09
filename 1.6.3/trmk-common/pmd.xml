@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-12-08T20:21:55.842">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/TerremarkVCloudAsyncClient.java">
+<violation beginline="17" endline="549" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.vcloud_0_8" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/binders/BindCloneVAppParamsToXmlPayload.java">
+<violation beginline="17" endline="127" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.vcloud_0_8.binders" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="21" endline="21" begincolumn="1" endcolumn="62" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.vcloud_0_8.binders" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.base.Preconditions.checkState'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/binders/BindInstantiateVAppTemplateParamsToXmlPayload.java">
+<violation beginline="17" endline="216" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.vcloud_0_8.binders" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="21" endline="21" begincolumn="1" endcolumn="62" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.vcloud_0_8.binders" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.base.Preconditions.checkState'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/binders/BindVAppConfigurationToXmlPayload.java">
+<violation beginline="17" endline="217" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.vcloud_0_8.binders" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="21" endline="21" begincolumn="1" endcolumn="62" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.vcloud_0_8.binders" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.base.Preconditions.checkState'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/compute/TerremarkVCloudComputeClient.java">
+<violation beginline="77" endline="86" begincolumn="14" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.trmk.vcloud_0_8.compute" class="TerremarkVCloudComputeClient" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'credentialStore'.
+</violation>
+<violation beginline="311" endline="313" begincolumn="9" endcolumn="7" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.trmk.vcloud_0_8.compute" class="TerremarkVCloudComputeClient" method="blockOnLastTask" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="374" endline="375" begincolumn="10" endcolumn="109" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.trmk.vcloud_0_8.compute" class="TerremarkVCloudComputeClient" method="deleteVApp" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/compute/strategy/CleanupOrphanKeys.java">
+<violation beginline="17" endline="76" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.vcloud_0_8.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/compute/strategy/TerremarkVCloudListNodesStrategy.java">
+<violation beginline="17" endline="148" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.vcloud_0_8.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="49" endline="49" begincolumn="1" endcolumn="43" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.vcloud_0_8.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.collect.Iterables'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/config/TerremarkVCloudRestClientModule.java">
+<violation beginline="17" endline="570" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.vcloud_0_8.config" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/internal/TerremarkVCloudApiMetadata.java">
+<violation beginline="17" endline="75" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.vcloud_0_8.internal" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/xml/CatalogItemHandler.java">
+<violation beginline="64" endline="70" begincolumn="10" endcolumn="10" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.trmk.vcloud_0_8.xml" class="CatalogItemHandler" method="startElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/xml/OrgListHandler.java">
+<violation beginline="48" endline="50" begincolumn="13" endcolumn="13" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.trmk.vcloud_0_8.xml" class="OrgListHandler" method="startElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.3/common/trmk/src/main/java/org/jclouds/trmk/vcloud_0_8/xml/VDCHandler.java">
+<violation beginline="17" endline="95" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.trmk.vcloud_0_8.xml" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+</pmd>
